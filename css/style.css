@@ -44,6 +44,7 @@ body{
     -webkit-tap-highlight-color: transparent;
     padding: 5vh 15px;
     
+    
 }
 
 
@@ -74,6 +75,7 @@ section{
     min-height: 90vh;
     border-radius: 30px;
     backdrop-filter: var(--backdrop-filter);
+    
 }
 
 .main{
@@ -165,6 +167,8 @@ section{
 .frontpage-section{
     display: flex;
     padding: 80px;
+   
+    
 }
 
 
@@ -317,6 +321,7 @@ section{
     background-color: rgb(230, 223, 223);
     padding: 70px 0;
     padding-left: 80px;
+  
 
     
     
