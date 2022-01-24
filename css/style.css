@@ -210,3 +210,54 @@ section{
    
     
 }
+
+
+/*About section*/
+
+.about-img{
+    width: 40%;
+    padding: 0 15px;
+}
+
+.about-text{
+    width: 60%;
+    padding: 0 15px;
+}
+
+.about-text .general-info li a{
+    text-transform: lowercase;
+    color: var(--green-color);
+}
+
+.about-img .img-box{
+    background-color: var(--box-25);
+    max-width: 380px;
+    border: 1px solid var(--dark-color);
+    margin: auto;
+    border-radius: 30px;
+}
+
+.about-img .img-box img{
+    width: 100%;
+}
+
+.about-text h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.about-text .hashtags{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-text .hashtags-item{
+    background-color: var(--box-25);
+    border: 1px solid var(--dark-color);
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
